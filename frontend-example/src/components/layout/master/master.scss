@@ -1,0 +1,23 @@
+.master-layout {
+  min-height: 100vh !important;
+  min-width: 480px;
+
+  &__content {
+    padding: 0 15px;
+    margin-top: 20px;
+  }
+
+  &__header {
+    padding: 0 !important;
+  }
+
+  &__spinner {
+    height: 100%;
+    width: 100%;
+    padding: 10% 0 !important;
+    display: block !important;
+    text-align: center;
+    position: relative !important;
+    opacity: 1 !important;
+  }
+}

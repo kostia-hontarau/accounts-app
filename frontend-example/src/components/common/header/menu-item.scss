@@ -1,0 +1,7 @@
+.menu-item {
+  @media (max-width: 800px) {
+    &__text {
+      display: none !important;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@import "../../../assets/style/mixins";
+
+.header {
+  width: 100%;
+  height: 100%;
+  background: #8cc8ff;
+
+  &__inner-container {
+    @include clearfix();
+
+    height: 100%;
+    padding: 5px 20px;
+  }
+
+  &__logo-container {
+    padding-right: 20px;
+    height: 100%;
+    float: left;
+    display: inline-block;
+  }
+
+  &__logo {
+    height: 100%;
+    display: block;
+    background: transparent;
+  }
+
+  &__greeting-container {
+    display: inline-block;
+    height: 100%;
+    padding-right: 20px;
+  }
+
+  &__greeting {
+    color: white;
+  }
+
+  &__index-container {
+    display: inline-block;
+    height: 100%;
+    text-align: right;
+    float: right;
+
+    > * {
+      display: inline-block;
+      margin-left: 5px;
+    }
+  }
+}

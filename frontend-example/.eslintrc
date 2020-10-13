@@ -1,0 +1,22 @@
+{
+  "extends": ["react-app", "airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "globals": {
+    "document": true,
+    "window": true,
+    "navigator": true,
+    "describe": true,
+    "expect": true,
+    "test": true,
+    "it": true,
+    "afterAll": true,
+    "afterEach": true,
+    "beforeAll": true,
+    "beforeEach": true,
+    "mountConnected": true,
+    "jest": true
+  }
+}

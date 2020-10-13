@@ -1,0 +1,19 @@
+@import "../../../assets/style/mixins";
+
+.dashboard-layout {
+  &__page {
+    background: #fff;
+    padding: 24px;
+    display: block;
+  }
+
+  &__spinner {
+    height: 100%;
+    width: 100%;
+    padding: 10% 0 !important;
+    display: block !important;
+    text-align: center;
+    position: relative !important;
+    opacity: 1 !important;
+  }
+}
